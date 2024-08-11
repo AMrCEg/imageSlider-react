@@ -8,7 +8,7 @@ const Slide = (props) => {
       </div>
       <img
         className="active"
-        src={`../imgs/Horses/${props.currentImage < 10 ? "0" : ""}${
+        src={`/imgs/Horses/${props.currentImage < 10 ? "0" : ""}${
           props.currentImage
         }.jpg`}
         alt=""

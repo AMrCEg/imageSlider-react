@@ -45,7 +45,7 @@ function App() {
       />
       <div className="show">
         <img
-          src={`../imgs/Horses/${
+          src={`/imgs/Horses/${
             currentImage < 10 ? "0" : ""
           }${currentImage}.jpg`}
           alt=""
