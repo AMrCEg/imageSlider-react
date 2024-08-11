@@ -45,7 +45,7 @@ function App() {
       />
       <div className="show">
         <img
-          src={`imageSlider-react/imgs/Horses/${
+          src={`/imageSlider-react/imgs/Horses/${
             currentImage < 10 ? "0" : ""
           }${currentImage}.jpg`}
           alt=""
