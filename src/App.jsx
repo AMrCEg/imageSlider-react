@@ -34,7 +34,7 @@ function App() {
   };
 
   return (
-    <>
+    <div className="image-slider">
       <Slide currentImage={currentImage} imageCount={imageCount} />
       <SliderControls
         currentImage={currentImage}
@@ -44,6 +44,9 @@ function App() {
         imageCount={imageCount}
       />
       <div className="show">
+        <div className="slider-number">
+          Image #{currentImage} of {imageCount}
+        </div>
         <img
           src={`/imageSlider-react/imgs/Horses/${
             currentImage < 10 ? "0" : ""
@@ -51,7 +54,7 @@ function App() {
           alt=""
         />
       </div>
-    </>
+    </div>
   );
 }
 
