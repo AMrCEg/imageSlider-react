@@ -169,10 +169,8 @@
   .slider-controls .next {
     padding: 5px;
   }
-
   .show {
-    width: 100%;
-    padding: 0;
+    display: none;
   }
   .show .slider-number {
     left: 0;
